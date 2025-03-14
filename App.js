@@ -33,7 +33,7 @@ export default function App() {
     ]);
     setGoal(""); // Clear input after adding
   };
-
+  
   // Function to delete a goal when clicked
   const deleteGoalHandler = (goalId) => {
     setGoals((prevGoals) => prevGoals.filter((goal) => goal.id !== goalId));
